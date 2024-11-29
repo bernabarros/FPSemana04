@@ -4,7 +4,7 @@ try:
 
     file_local = input()
 
-    with open(file_local) as f:
+    with open(file_local,"rb") as f:
         data = json.load(f)
 
     print(data)
